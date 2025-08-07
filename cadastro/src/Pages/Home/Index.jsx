@@ -31,7 +31,7 @@ function Index() {
           <p>Email: {item.email}</p>
         </div>
           <button className={styles.lixeira}>
-            lixo
+          <i class="fa-solid fa-trash"></i>
           </button>
       </div>
         ))}
